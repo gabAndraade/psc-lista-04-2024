@@ -24,14 +24,14 @@ public class Numerotres {
         scanner.nextLine();
         System.out.println("Seu sexo (Digite 'f' para feminino, 'm' para masculino):");
             String sexo = scanner.nextLine();
-                while(!sexo.equals("f") && !sexo.equals("m")){
+                while(!sexo.equalsIgnoreCase("f") && !sexo.equalsIgnoreCase("m")){
                     System.out.println("Digite apenas 'f' ou 'm'");
                     sexo= scanner.nextLine();
                 }
         
         System.out.println("Informe seu estado civil( 's', 'c', 'v', 'd')");
             String estadoC = scanner.nextLine();
-                while(!estadoC.equals("s") && !estadoC.equals("c") && !estadoC.equals("v") && !estadoC.equals("d")){
+                while(!estadoC.equalsIgnoreCase("s") && !estadoC.equalsIgnoreCase("c") && !estadoC.equalsIgnoreCase("v") && !estadoC.equalsIgnoreCase("d")){
                     System.out.println("Digite apenas:'s', 'c', 'v', 'd'");
                     estadoC=scanner.nextLine();
                 }
