@@ -24,7 +24,7 @@ public class Numerotres {
         scanner.nextLine();
         System.out.println("Seu sexo (Digite 'f' para feminino, 'm' para masculino):");
             String sexo = scanner.nextLine();
-                while(!sexo.equalsIgnoreCase("f") && !sexo.equalsIgnoreCase("m")){
+                while(!sexo.equalsIgnoreCase("f")  || !sexo.equalsIgnoreCase("m")){
                     System.out.println("Digite apenas 'f' ou 'm'");
                     sexo= scanner.nextLine();
                 }
