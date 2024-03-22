@@ -9,7 +9,7 @@ public class Numerodois {
         nomeUsuario = scanner.nextLine();
         System.out.println("Digite sua senha:");
         senhaUsuario = scanner.nextLine();
-            while(senhaUsuario.equals(nomeUsuario)){
+            while(senhaUsuario.equalsIgnoreCase(nomeUsuario)){
                 System.out.println("ERRO. Sua senha não pode ser igual ao seu nome de usuario, tente novamente.");
                 System.out.println("Digite sua senha:");
                 senhaUsuario = scanner.nextLine();                
