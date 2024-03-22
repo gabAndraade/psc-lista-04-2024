@@ -7,7 +7,7 @@ public class Numerodez {
         System.out.println("Digite 2 números inteiros de sua escolha: ");
             n1 = scanner.nextDouble();
             n2 = scanner.nextDouble();
-            if (n1 == n2){
+            while (n1 == n2){
                 System.out.println("Os números não podem ser os mesmos. Tente novamente.");
                 n1 = scanner.nextDouble();
                 n2 = scanner.nextDouble();                
