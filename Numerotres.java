@@ -5,7 +5,7 @@ public class Numerotres {
         System.out.println("Digite seu nome:");
             String nome = scanner.nextLine();
             while(nome.length()<=3){
-                System.out.println("Seu nome deve ter no mínimo três caracteres. Tente novamente.");
+                System.out.println("Seu nome deve ser maior que três caracteres. Tente novamente.");
                 nome = scanner.nextLine();               
             }
         System.out.println("Informe sua idade:");
