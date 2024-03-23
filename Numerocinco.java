@@ -27,12 +27,15 @@ public class Numerocinco {
         System.out.println("A quantidade de anos necessários para o país A passar o país B é: "+anos+"anos");
         System.out.println("Digite 'R' para repetir a operação.Caso queira sair digite 'Q'.");
         res = scanner.nextLine();
-        scanner.close();
+        
         if (res.equalsIgnoreCase("q")) {
             System.out.println("Encerrando...");
-            return;               
+            scanner.close();
+            return;
+            
+                           
         }        
         }while(res.equalsIgnoreCase("r"));
-        
+        scanner.close();
         }
     }
