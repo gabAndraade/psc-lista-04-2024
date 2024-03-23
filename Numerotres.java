@@ -4,13 +4,13 @@ public class Numerotres {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite seu nome:");
             String nome = scanner.nextLine();
-            while (nome.length()<3){
+            while(nome.length()<=3){
                 System.out.println("Seu nome deve ter no mínimo três caracteres. Tente novamente.");
                 nome = scanner.nextLine();               
             }
         System.out.println("Informe sua idade:");
             int idade = scanner.nextInt();
-            while (idade <0 || idade > 150) {
+            while(idade <0 || idade > 150) {
                 System.out.println("Sua idade deve ser entre 0 e 150, tente novamente.");
                 System.out.println("Informe sua idade:");
                 idade = scanner.nextInt();
