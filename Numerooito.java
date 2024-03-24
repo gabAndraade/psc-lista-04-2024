@@ -12,7 +12,7 @@ public class Numerooito {
             scanner.close();
         double soma = n1+n2+n3+n4+n5;
         System.out.println("A soma dos números é: "+soma);
-        System.out.println("A média dos números é: "+soma/5);
+        System.out.println("A média dos números é: "+(soma)/5);
     }
     
 }
